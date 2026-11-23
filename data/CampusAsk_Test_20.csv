@@ -1,0 +1,21 @@
+﻿question_id,question,intent,style,split
+HOU-001,What time does the university library open on weekdays?,Hours,standard,test
+HOU-004,What are the working hours of the student affairs office?,Hours,standard,test
+HOU-008,What time can students start visiting the university clinic each morning?,Hours,long,test
+HOU-009,How late is the campus cafeteria open on a regular school night?,Hours,long,test
+FEE-002,Fee for an official transcript?,Fees,short,test
+FEE-005,How much does a parking permit cost for one semester?,Fees,standard,test
+FEE-010,Are there additional charges for courses that include laboratory sessions?,Fees,long,test
+FEE-015,"Hey, do I pay extra to retake an exam?",Fees,informal,test
+LOC-004,Is the student affairs office on the first floor?,Location,standard,test
+LOC-014,How can I walk from the library to the language center without leaving campus?,Location,long,test
+LOC-017,Which entrance leads directly to the university administration building?,Location,standard,test
+LOC-018,Is the postgraduate studies office in the north wing of the building?,Location,long,test
+REG-009,Can transfer students register directly for second-year courses?,Registration,standard,test
+REG-014,How can I join the waiting list for a course that has no seats left?,Registration,long,test
+REG-016,Can I cancel an application after I submit it?,Registration,standard,test
+REG-020,How do I reactivate my enrollment after taking a semester off?,Registration,long,test
+CON-002,Academic advising email address?,Contact,short,test
+CON-003,Is there a WhatsApp number for student support?,Contact,standard,test
+CON-008,Student customer service hotline?,Contact,short,test
+CON-013,How can I contact the internship coordinator without going to their office?,Contact,long,test

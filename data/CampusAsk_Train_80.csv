@@ -1,0 +1,81 @@
+﻿question_id,question,intent,style,split
+HOU-002,Library hours on Saturday?,Hours,short,train
+HOU-003,When does the admissions office close for the day?,Hours,standard,train
+HOU-005,Does the computer lab stay open after six in the evening?,Hours,long,train
+HOU-006,"Hey, is the academic advising center open today?",Hours,informal,train
+HOU-007,Weekend hours for the study rooms?,Hours,short,train
+HOU-010,Is the IT help desk open in the morning?,Hours,standard,train
+HOU-011,Registrar's office opening time?,Hours,short,train
+HOU-012,Does the main library have different opening hours on Fridays?,Hours,long,train
+HOU-013,Can I use the language lab outside regular class hours?,Hours,standard,train
+HOU-014,Does the career services office close earlier than usual on Thursdays?,Hours,long,train
+HOU-015,When is the printing center open?,Hours,short,train
+HOU-016,What time does the financial aid office stop serving students?,Hours,standard,train
+HOU-017,"Hey, can I visit student support during lunch?",Hours,informal,train
+HOU-018,Are university administrative offices open during the summer break?,Hours,standard,train
+HOU-019,Any idea when the campus gym closes?,Hours,informal,train
+HOU-020,Is the campus bookshop still open around seven tonight?,Hours,informal,train
+FEE-001,How much is the application fee for a new student?,Fees,standard,train
+FEE-003,What does it cost to replace a lost student ID card?,Fees,standard,train
+FEE-004,Do students have to pay to join the campus gym?,Fees,standard,train
+FEE-006,Is there a charge for using the campus shuttle bus?,Fees,standard,train
+FEE-007,Can you tell me how to check the remaining tuition balance on my account?,Fees,long,train
+FEE-008,Do international students pay a different tuition rate from local students?,Fees,long,train
+FEE-009,Dormitory cost per term?,Fees,short,train
+FEE-011,Where can I see a complete breakdown of the university fees on my student account?,Fees,long,train
+FEE-012,Late-payment penalty?,Fees,short,train
+FEE-013,How much does it cost to print ten pages at the student center?,Fees,long,train
+FEE-014,Are graduation certificates issued free of charge?,Fees,standard,train
+FEE-016,Is there a fee for requesting another copy of my degree certificate?,Fees,long,train
+FEE-017,What payment methods can I use for university fees?,Fees,standard,train
+FEE-018,Can I get my course fee refunded if I withdraw?,Fees,standard,train
+FEE-019,"Is the online application free, or does it cost something?",Fees,informal,train
+FEE-020,Do they charge for an enrollment verification letter?,Fees,informal,train
+LOC-001,Where is the admissions office on campus?,Location,standard,train
+LOC-002,Computer science building?,Location,short,train
+LOC-003,How do I find the main university library?,Location,standard,train
+LOC-005,Where can I find the campus medical clinic?,Location,standard,train
+LOC-006,Which path should I take from the main gate to reach the engineering laboratories?,Location,long,train
+LOC-007,Academic advising room number?,Location,short,train
+LOC-008,Is the registrar's office near the main entrance?,Location,standard,train
+LOC-009,Where are the student parking lots located?,Location,standard,train
+LOC-010,"Hey, where's the closest campus bus stop?",Location,informal,train
+LOC-011,What floor is the international students office on?,Location,standard,train
+LOC-012,Which campus building contains the large lecture theater?,Location,standard,train
+LOC-013,Where should I go on campus to pick up my student ID card?,Location,long,train
+LOC-015,Is the university bookshop inside the student center?,Location,standard,train
+LOC-016,Room B12: where is it?,Location,short,train
+LOC-019,Any idea where the accessible elevator near the auditorium is?,Location,informal,train
+LOC-020,Can you point me toward the campus prayer room?,Location,informal,train
+REG-001,When is the deadline to apply for undergraduate admission?,Registration,standard,train
+REG-002,How do I enroll in courses for next semester?,Registration,standard,train
+REG-003,Can I add another class after course registration has started?,Registration,standard,train
+REG-004,What should I do if a required course is already full?,Registration,standard,train
+REG-005,How do I check whether my admission application has been accepted?,Registration,standard,train
+REG-006,Do I need to complete a prerequisite before registering for this class?,Registration,long,train
+REG-007,How to drop a course?,Registration,short,train
+REG-008,When does the course withdrawal period end?,Registration,standard,train
+REG-010,Which documents must I submit when applying for undergraduate admission?,Registration,standard,train
+REG-011,Can I change to a different section after enrolling in a course?,Registration,long,train
+REG-012,What happens if two classes I want to register for have conflicting times?,Registration,long,train
+REG-013,Missed the enrollment deadline—what now?,Registration,informal,train
+REG-015,Do new students need to confirm their admission through the online portal?,Registration,long,train
+REG-017,Maximum credit hours this term?,Registration,short,train
+REG-018,"Hey, why won't the registration portal let me add my class?",Registration,informal,train
+REG-019,Can I sign up for summer classes?,Registration,informal,train
+CON-001,What is the phone number for the admissions office?,Contact,standard,train
+CON-004,Who can I call if my university account stops working?,Contact,standard,train
+CON-005,What email address should I use to reach the computer science department?,Contact,long,train
+CON-006,Can I speak to someone in the registrar office by telephone?,Contact,long,train
+CON-007,How do I contact the IT help desk online?,Contact,standard,train
+CON-009,Which email should I use to contact the financial aid team?,Contact,standard,train
+CON-010,Can I send a direct message to the library staff?,Contact,standard,train
+CON-011,What is the best way to get in touch with the campus medical clinic?,Contact,long,train
+CON-012,Does the student affairs office have an official support email?,Contact,standard,train
+CON-014,Where can I find the administration office phone and email details?,Contact,long,train
+CON-015,Does the admissions team offer an online contact form for student questions?,Contact,long,train
+CON-016,Campus security number?,Contact,short,train
+CON-017,"Hey, is there a live chat for technical help?",Contact,informal,train
+CON-018,Who can I message about a missing course grade?,Contact,standard,train
+CON-019,Any way to reach the exam office remotely?,Contact,informal,train
+CON-020,Can I ask student services to call me back?,Contact,informal,train

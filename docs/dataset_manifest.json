@@ -1,0 +1,21 @@
+{
+  "source_archive": "CampusAsk_GitHub_Starter.zip",
+  "source_archive_sha256": "53a735d2fc6d97bb6092aa7bc633dda42e631a15a5ff9251c14db3a84bb4b260",
+  "hash_algorithm": "SHA-256",
+  "base_seed": 42,
+  "category_order": [
+    "Hours",
+    "Fees",
+    "Location",
+    "Registration",
+    "Contact"
+  ],
+  "split_reproduction": "random.Random(42 + category_index).sample(sorted_category_rows_by_question_id, 4) selects test rows; all remaining rows stay in train. Compatible with the supplied assignments; original generator not supplied.",
+  "files": {
+    "data/CampusAsk_100_Questions.csv": "01ef1634b2c9246bff727d327ba06fbd0512b1b6b7a0ca926e01cb27cd4a585d",
+    "data/CampusAsk_Test_20.csv": "5ac3fcddc3a39e8597a2bded1687c2da05df26c0cd26b43dd75be72b4622f35e",
+    "data/CampusAsk_Train_80.csv": "74d053429773b3f602d8e0268aa443e9e838f7894ec6b6e25a98a8b005e925ee",
+    "docs/CampusAsk_Data_Guide.txt": "af2067e3a59f750d52f8a50a0f5ba50c591a1d79d46dc1a1093f03da66d1ce32",
+    "docs/CampusAsk_Review.xlsx": "38fdeaf49bb52f35bbeb13a2a71209b8a2ad8e868c1fa8b791bd41c3206db120"
+  }
+}

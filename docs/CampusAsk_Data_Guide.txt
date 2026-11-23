@@ -1,0 +1,39 @@
+CampusAsk - Dataset preparation (Problem A18)
+NLP CS1763 | Al-Baha University
+
+STATUS: DRAFT FOR TEAM REVIEW. Questions were AI-assisted and require human verification and disclosure of AI use.
+
+TASK: Input = one short English university question. Output = one intent among Hours, Fees, Location, Registration, Contact.
+
+INTENT DEFINITIONS:
+- Hours: opening/closing or service working hours for campus facilities. NOT admission or course registration deadlines.
+- Fees: financial charges, amounts, payments, refunds, and penalties for university services.
+- Location: physical locations, buildings, rooms, entrances, directions and campus navigation.
+- Registration: admissions and course enrollment processes, deadlines, eligibility, add/drop, prerequisites and course registration portal issues.
+- Contact: contact methods, telephone numbers, email addresses, live chat, or whom to message/call.
+
+FILES:
+- CampusAsk_100_Questions.csv: 100 draft questions, intent, wording style, and fixed split.
+- CampusAsk_Train_80.csv: model training set (16 per intent).
+- CampusAsk_Test_20.csv: held-out final test set (4 per intent).
+- CampusAsk_Review.xlsx: readable workbook with summary and data sheets.
+
+SCHEME:
+question_id : stable unique ID
+question    : English question text
+intent      : one of the 5 labels
+style       : standard, short, long, informal (draft editorial tag)
+split       : train or test
+
+SPLIT:
+A fixed stratified sampling was applied once with base seed 42 (per-category seed = 42 + category index). Test has 4 items per category, train has 16. Split and all question IDs are saved as explicit columns so they can be reproduced exactly. No question is in both subsets. Do not re-split after looking at model results; do not use the test set to tune features or rules.
+
+TEAM REVIEW CHECKLIST BEFORE USING THIS DATA:
+1. Read all 100 questions and correct unclear wording and unintended overlap among intent classes.
+2. Verify whether campus service examples are appropriate to the chosen university context; questions are hypothetical and do not assert these services exist.
+3. Approve the five label definitions and check all 20 questions in each class.
+4. Look for paraphrases/near-duplicates, not just exact duplicates.
+5. If any questions change, keep IDs, split allocation and category counts stable, and update files consistently before any model training.
+6. The Student Guide requires AI help to be declared. Do not present this AI-assisted draft as entirely student-authored.
+
+NOTE: The instructor's approval of the topic is confirmed from his feedback screenshot. The 5-class 20-each plan comes from the submitted proposal. 20 mistakes to analyze later belong to the model evaluation phase, not the 20 held-out test questions themselves.

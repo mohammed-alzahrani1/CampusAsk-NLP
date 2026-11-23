@@ -1,0 +1,526 @@
+{
+  "status": "PASS",
+  "base_seed": 42,
+  "python_version": "3.13.11",
+  "checks": [
+    {
+      "name": "all.schema",
+      "status": "PASS",
+      "details": {
+        "headers": [
+          "question_id",
+          "question",
+          "intent",
+          "style",
+          "split"
+        ]
+      }
+    },
+    {
+      "name": "all.row_shape",
+      "status": "PASS",
+      "details": {
+        "invalid_lines": []
+      }
+    },
+    {
+      "name": "all.count",
+      "status": "PASS",
+      "details": {
+        "count": 100
+      }
+    },
+    {
+      "name": "all.intent_balance",
+      "status": "PASS",
+      "details": {
+        "Hours": 20,
+        "Fees": 20,
+        "Location": 20,
+        "Registration": 20,
+        "Contact": 20
+      }
+    },
+    {
+      "name": "all.missing_values",
+      "status": "PASS",
+      "details": {
+        "cells": []
+      }
+    },
+    {
+      "name": "all.allowed_values",
+      "status": "PASS",
+      "details": {
+        "ids": []
+      }
+    },
+    {
+      "name": "all.duplicate_question_id",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "all.duplicate_question",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "all.duplicate_question_normalized",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "train.schema",
+      "status": "PASS",
+      "details": {
+        "headers": [
+          "question_id",
+          "question",
+          "intent",
+          "style",
+          "split"
+        ]
+      }
+    },
+    {
+      "name": "train.row_shape",
+      "status": "PASS",
+      "details": {
+        "invalid_lines": []
+      }
+    },
+    {
+      "name": "train.count",
+      "status": "PASS",
+      "details": {
+        "count": 80
+      }
+    },
+    {
+      "name": "train.intent_balance",
+      "status": "PASS",
+      "details": {
+        "Hours": 16,
+        "Fees": 16,
+        "Location": 16,
+        "Registration": 16,
+        "Contact": 16
+      }
+    },
+    {
+      "name": "train.missing_values",
+      "status": "PASS",
+      "details": {
+        "cells": []
+      }
+    },
+    {
+      "name": "train.allowed_values",
+      "status": "PASS",
+      "details": {
+        "ids": []
+      }
+    },
+    {
+      "name": "train.duplicate_question_id",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "train.duplicate_question",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "train.duplicate_question_normalized",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "train.split_tags",
+      "status": "PASS",
+      "details": {
+        "ids": []
+      }
+    },
+    {
+      "name": "test.schema",
+      "status": "PASS",
+      "details": {
+        "headers": [
+          "question_id",
+          "question",
+          "intent",
+          "style",
+          "split"
+        ]
+      }
+    },
+    {
+      "name": "test.row_shape",
+      "status": "PASS",
+      "details": {
+        "invalid_lines": []
+      }
+    },
+    {
+      "name": "test.count",
+      "status": "PASS",
+      "details": {
+        "count": 20
+      }
+    },
+    {
+      "name": "test.intent_balance",
+      "status": "PASS",
+      "details": {
+        "Hours": 4,
+        "Fees": 4,
+        "Location": 4,
+        "Registration": 4,
+        "Contact": 4
+      }
+    },
+    {
+      "name": "test.missing_values",
+      "status": "PASS",
+      "details": {
+        "cells": []
+      }
+    },
+    {
+      "name": "test.allowed_values",
+      "status": "PASS",
+      "details": {
+        "ids": []
+      }
+    },
+    {
+      "name": "test.duplicate_question_id",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "test.duplicate_question",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "test.duplicate_question_normalized",
+      "status": "PASS",
+      "details": {
+        "groups": []
+      }
+    },
+    {
+      "name": "test.split_tags",
+      "status": "PASS",
+      "details": {
+        "ids": []
+      }
+    },
+    {
+      "name": "all.id_coverage",
+      "status": "PASS",
+      "details": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "all.id_intent_alignment",
+      "status": "PASS",
+      "details": {
+        "ids": []
+      }
+    },
+    {
+      "name": "all.subset_union",
+      "status": "PASS",
+      "details": {
+        "master_rows": 100,
+        "combined_subset_rows": 100
+      }
+    },
+    {
+      "name": "train.matches_master",
+      "status": "PASS",
+      "details": {
+        "all_columns_compared": [
+          "question_id",
+          "question",
+          "intent",
+          "style",
+          "split"
+        ]
+      }
+    },
+    {
+      "name": "test.matches_master",
+      "status": "PASS",
+      "details": {
+        "all_columns_compared": [
+          "question_id",
+          "question",
+          "intent",
+          "style",
+          "split"
+        ]
+      }
+    },
+    {
+      "name": "split.overlap_question_id",
+      "status": "PASS",
+      "details": {
+        "count": 0,
+        "values": []
+      }
+    },
+    {
+      "name": "split.overlap_question",
+      "status": "PASS",
+      "details": {
+        "count": 0,
+        "values": []
+      }
+    },
+    {
+      "name": "split.overlap_question_normalized",
+      "status": "PASS",
+      "details": {
+        "count": 0,
+        "values": []
+      }
+    },
+    {
+      "name": "split.seed_42_reproduction",
+      "status": "PASS",
+      "details": [
+        {
+          "intent": "Hours",
+          "seed": 42,
+          "expected_test_ids": [
+            "HOU-001",
+            "HOU-004",
+            "HOU-008",
+            "HOU-009"
+          ],
+          "actual_test_ids": [
+            "HOU-001",
+            "HOU-004",
+            "HOU-008",
+            "HOU-009"
+          ]
+        },
+        {
+          "intent": "Fees",
+          "seed": 43,
+          "expected_test_ids": [
+            "FEE-002",
+            "FEE-005",
+            "FEE-010",
+            "FEE-015"
+          ],
+          "actual_test_ids": [
+            "FEE-002",
+            "FEE-005",
+            "FEE-010",
+            "FEE-015"
+          ]
+        },
+        {
+          "intent": "Location",
+          "seed": 44,
+          "expected_test_ids": [
+            "LOC-004",
+            "LOC-014",
+            "LOC-017",
+            "LOC-018"
+          ],
+          "actual_test_ids": [
+            "LOC-004",
+            "LOC-014",
+            "LOC-017",
+            "LOC-018"
+          ]
+        },
+        {
+          "intent": "Registration",
+          "seed": 45,
+          "expected_test_ids": [
+            "REG-009",
+            "REG-014",
+            "REG-016",
+            "REG-020"
+          ],
+          "actual_test_ids": [
+            "REG-009",
+            "REG-014",
+            "REG-016",
+            "REG-020"
+          ]
+        },
+        {
+          "intent": "Contact",
+          "seed": 46,
+          "expected_test_ids": [
+            "CON-002",
+            "CON-003",
+            "CON-008",
+            "CON-013"
+          ],
+          "actual_test_ids": [
+            "CON-002",
+            "CON-003",
+            "CON-008",
+            "CON-013"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "file.docs/CampusAsk_Review.xlsx",
+      "status": "PASS",
+      "details": {
+        "path": "docs/CampusAsk_Review.xlsx"
+      }
+    },
+    {
+      "name": "file.docs/CampusAsk_Data_Guide.txt",
+      "status": "PASS",
+      "details": {
+        "path": "docs/CampusAsk_Data_Guide.txt"
+      }
+    },
+    {
+      "name": "provenance.split_configuration",
+      "status": "PASS",
+      "details": {
+        "base_seed": 42,
+        "category_order": [
+          "Hours",
+          "Fees",
+          "Location",
+          "Registration",
+          "Contact"
+        ]
+      }
+    },
+    {
+      "name": "provenance.manifest_coverage",
+      "status": "PASS",
+      "details": {
+        "file_count": 5
+      }
+    },
+    {
+      "name": "provenance.data/CampusAsk_100_Questions.csv",
+      "status": "PASS",
+      "details": {
+        "sha256": "01ef1634b2c9246bff727d327ba06fbd0512b1b6b7a0ca926e01cb27cd4a585d",
+        "matches_original": true
+      }
+    },
+    {
+      "name": "provenance.data/CampusAsk_Test_20.csv",
+      "status": "PASS",
+      "details": {
+        "sha256": "5ac3fcddc3a39e8597a2bded1687c2da05df26c0cd26b43dd75be72b4622f35e",
+        "matches_original": true
+      }
+    },
+    {
+      "name": "provenance.data/CampusAsk_Train_80.csv",
+      "status": "PASS",
+      "details": {
+        "sha256": "74d053429773b3f602d8e0268aa443e9e838f7894ec6b6e25a98a8b005e925ee",
+        "matches_original": true
+      }
+    },
+    {
+      "name": "provenance.docs/CampusAsk_Data_Guide.txt",
+      "status": "PASS",
+      "details": {
+        "sha256": "af2067e3a59f750d52f8a50a0f5ba50c591a1d79d46dc1a1093f03da66d1ce32",
+        "matches_original": true
+      }
+    },
+    {
+      "name": "provenance.docs/CampusAsk_Review.xlsx",
+      "status": "PASS",
+      "details": {
+        "sha256": "38fdeaf49bb52f35bbeb13a2a71209b8a2ad8e868c1fa8b791bd41c3206db120",
+        "matches_original": true
+      }
+    },
+    {
+      "name": "workbook.all.matches_csv",
+      "status": "PASS",
+      "details": {
+        "data_rows": 100
+      }
+    },
+    {
+      "name": "workbook.train.matches_csv",
+      "status": "PASS",
+      "details": {
+        "data_rows": 80
+      }
+    },
+    {
+      "name": "workbook.test.matches_csv",
+      "status": "PASS",
+      "details": {
+        "data_rows": 20
+      }
+    },
+    {
+      "name": "workbook.summary_counts",
+      "status": "PASS",
+      "details": {
+        "expected_total_train_test": [
+          100,
+          80,
+          20
+        ]
+      }
+    }
+  ],
+  "similarity_candidates": [
+    {
+      "ids": [
+        "HOU-003",
+        "LOC-001"
+      ],
+      "token_jaccard": 0.5,
+      "cross_split": false
+    },
+    {
+      "ids": [
+        "LOC-001",
+        "CON-001"
+      ],
+      "token_jaccard": 0.5,
+      "cross_split": false
+    }
+  ],
+  "semantic_review": "Human approval pending; see docs/data_review.md. Lexical similarity does not establish or exclude semantic leakage.",
+  "seed_provenance": "Saved assignments match the documented compatible reproduction. The original generation script was not supplied."
+}
