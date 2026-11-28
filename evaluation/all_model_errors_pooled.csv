@@ -1,0 +1,29 @@
+model,question_id,style,question,true_intent,pred_intent
+majority_baseline,FEE-002,short,Fee for an official transcript?,Fees,Hours
+majority_baseline,FEE-005,standard,How much does a parking permit cost for one semester?,Fees,Hours
+majority_baseline,FEE-010,long,Are there additional charges for courses that include laboratory sessions?,Fees,Hours
+majority_baseline,FEE-015,informal,"Hey, do I pay extra to retake an exam?",Fees,Hours
+majority_baseline,LOC-004,standard,Is the student affairs office on the first floor?,Location,Hours
+majority_baseline,LOC-014,long,How can I walk from the library to the language center without leaving campus?,Location,Hours
+majority_baseline,LOC-017,standard,Which entrance leads directly to the university administration building?,Location,Hours
+majority_baseline,LOC-018,long,Is the postgraduate studies office in the north wing of the building?,Location,Hours
+majority_baseline,REG-009,standard,Can transfer students register directly for second-year courses?,Registration,Hours
+majority_baseline,REG-014,long,How can I join the waiting list for a course that has no seats left?,Registration,Hours
+majority_baseline,REG-016,standard,Can I cancel an application after I submit it?,Registration,Hours
+majority_baseline,REG-020,long,How do I reactivate my enrollment after taking a semester off?,Registration,Hours
+majority_baseline,CON-002,short,Academic advising email address?,Contact,Hours
+majority_baseline,CON-003,standard,Is there a WhatsApp number for student support?,Contact,Hours
+majority_baseline,CON-008,short,Student customer service hotline?,Contact,Hours
+majority_baseline,CON-013,long,How can I contact the internship coordinator without going to their office?,Contact,Hours
+keyword_rules,LOC-014,long,How can I walk from the library to the language center without leaving campus?,Location,Hours
+keyword_rules,REG-014,long,How can I join the waiting list for a course that has no seats left?,Registration,Hours
+keyword_rules,REG-016,standard,Can I cancel an application after I submit it?,Registration,Hours
+keyword_rules,CON-008,short,Student customer service hotline?,Contact,Hours
+nb_lowercase_on,FEE-015,informal,"Hey, do I pay extra to retake an exam?",Fees,Contact
+nb_lowercase_on,CON-003,standard,Is there a WhatsApp number for student support?,Contact,Fees
+nb_lowercase_on,CON-008,short,Student customer service hotline?,Contact,Fees
+nb_lowercase_off,HOU-004,standard,What are the working hours of the student affairs office?,Hours,Contact
+nb_lowercase_off,FEE-002,short,Fee for an official transcript?,Fees,Contact
+nb_lowercase_off,FEE-015,informal,"Hey, do I pay extra to retake an exam?",Fees,Contact
+nb_lowercase_off,LOC-018,long,Is the postgraduate studies office in the north wing of the building?,Location,Hours
+nb_lowercase_off,CON-003,standard,Is there a WhatsApp number for student support?,Contact,Fees
