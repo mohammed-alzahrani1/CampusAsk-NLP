@@ -1,0 +1,6 @@
+intent,precision,recall,f1,support
+Hours,0.2,1.0,0.3333,4
+Fees,0.0,0.0,0.0,4
+Location,0.0,0.0,0.0,4
+Registration,0.0,0.0,0.0,4
+Contact,0.0,0.0,0.0,4

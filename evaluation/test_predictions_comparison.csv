@@ -1,0 +1,21 @@
+question_id,question,true_intent,majority_baseline,keyword_rules,nb_lowercase_on,nb_lowercase_off
+HOU-001,What time does the university library open on weekdays?,Hours,Hours,Hours,Hours,Hours
+HOU-004,What are the working hours of the student affairs office?,Hours,Hours,Hours,Hours,Contact
+HOU-008,What time can students start visiting the university clinic each morning?,Hours,Hours,Hours,Hours,Hours
+HOU-009,How late is the campus cafeteria open on a regular school night?,Hours,Hours,Hours,Hours,Hours
+FEE-002,Fee for an official transcript?,Fees,Hours,Fees,Fees,Contact
+FEE-005,How much does a parking permit cost for one semester?,Fees,Hours,Fees,Fees,Fees
+FEE-010,Are there additional charges for courses that include laboratory sessions?,Fees,Hours,Fees,Fees,Fees
+FEE-015,"Hey, do I pay extra to retake an exam?",Fees,Hours,Fees,Contact,Contact
+LOC-004,Is the student affairs office on the first floor?,Location,Hours,Location,Location,Location
+LOC-014,How can I walk from the library to the language center without leaving campus?,Location,Hours,Hours,Location,Location
+LOC-017,Which entrance leads directly to the university administration building?,Location,Hours,Location,Location,Location
+LOC-018,Is the postgraduate studies office in the north wing of the building?,Location,Hours,Location,Location,Hours
+REG-009,Can transfer students register directly for second-year courses?,Registration,Hours,Registration,Registration,Registration
+REG-014,How can I join the waiting list for a course that has no seats left?,Registration,Hours,Hours,Registration,Registration
+REG-016,Can I cancel an application after I submit it?,Registration,Hours,Hours,Registration,Registration
+REG-020,How do I reactivate my enrollment after taking a semester off?,Registration,Hours,Registration,Registration,Registration
+CON-002,Academic advising email address?,Contact,Hours,Contact,Contact,Contact
+CON-003,Is there a WhatsApp number for student support?,Contact,Hours,Contact,Fees,Fees
+CON-008,Student customer service hotline?,Contact,Hours,Hours,Fees,Contact
+CON-013,How can I contact the internship coordinator without going to their office?,Contact,Hours,Contact,Contact,Contact

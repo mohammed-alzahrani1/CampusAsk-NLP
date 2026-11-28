@@ -1,0 +1,5 @@
+model,accuracy,errors
+majority_baseline,0.2,16
+keyword_rules,0.8,4
+nb_lowercase_on,0.85,3
+nb_lowercase_off,0.75,5
